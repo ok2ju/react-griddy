@@ -1,0 +1,6 @@
+# initial
+node_modules/
+dist/
+.idea/
+.DS_Store
+.DS_Store?
