@@ -1,6 +1,13 @@
-export Table from './Table';
-export TableBody from './TableBody';
-export TableHeader from './TableHeader';
-export TableHeaderColumn from './TableHeaderColumn';
-export TableRow from './TableRow';
-export TableRowColumn from './TableRowColumn';
+import TableBody from './TableBody';
+import TableHeader from './TableHeader';
+import TableHeaderColumn from './TableHeaderColumn';
+import TableRow from './TableRow';
+import TableRowColumn from './TableRowColumn';
+
+export {
+  TableBody,
+  TableHeader,
+  TableHeaderColumn,
+  TableRow,
+  TableRowColumn,
+};
