@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import cx from 'classnames';
+import ClickAwayListener from '../helpers/ClickAwayListener';
 
 class TableBody extends Component {
   static propTypes = {
@@ -154,7 +155,7 @@ class TableBody extends Component {
   };
 
   processRowSelection(event, rowNumber) {
-    let selectedRows = this.start.selectedRows;
+    let selectedRows = this.state.selectedRows;
 
     if (event.shiftKey && this.props.multiSelectable && selectedRows.length) {
       const lastIndex = selectedRows.length - 1;
